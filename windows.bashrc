@@ -1,5 +1,4 @@
 # File   : .bashrc
-# Author : Jacob Summerville
 # System : Windows
 
 #----------------------
@@ -139,4 +138,3 @@ alias gmlocal="git checkout --ours ."
 alias gmremote="git checkout --theirs ."
 
 alias rmorig="find . -name '*.orig' -delete"
-

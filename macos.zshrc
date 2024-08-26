@@ -1,6 +1,5 @@
 # File   : .zshrc
-# Author : Jacob Summerville
-# System : Windows
+# System : MacOS
 
 #----------------------
 #     Path Changes
@@ -134,17 +133,3 @@ alias gmlocal="git checkout --ours ."
 alias gmremote="git checkout --theirs ."
 
 alias rmorig="find . -name '*.orig' -delete"
-
-#------------------
-#   Applications
-#------------------
-
-export GITHUB_CODE="/Users/jacob/GitHub"
-export JAMSTEK="$GITHUB_CODE/JamsTek"
-export TOOLS="$GITHUB_CODE/Tools"
-export WEBSITES="$GITHUB_CODE/Websites"
-
-alias towebp="python $Tools/Webp-Converter/run.py"
-alias createmedia="python $Tools/Media-Creation-Tool/run.py"
-alias photoclean="python $Tools/Photo-Clean/run.py"
-alias photogal="python $Tools/React-Gallery-Gen/run.py"
